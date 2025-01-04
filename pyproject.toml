@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "eeg2meg"
+version = "0.1.0"
+description = "Crossing the chasm between radial and tangential currents with transformers. Deep Learning @ MVA 2024"
+authors = ["Francesco Capuano <francesco_capuano@aol.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.1"
+datasets = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
